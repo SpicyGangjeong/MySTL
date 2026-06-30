@@ -1,0 +1,5 @@
+
+robocopy "./" "../\MyLibrary\h" *.h /FFT /NDL /NFL /R:0 /W:0
+IF %ERRORLEVEL% GEQ 8 EXIT /B 1
+IF %ERRORLEVEL% LEQ 4 EXIT /B 0
+EXIT /B %ERRORLEVEL%

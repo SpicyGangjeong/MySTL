@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/ExternalFile/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+    <File Path="Update_Headers.bat" />
+  </Folder>
+  <Project Path="MyTemplateLibrary/MyTemplateLibrary.vcxproj">
+    <Build Solution="Debug|x86" Project="false" />
+  </Project>
+  <Project Path="RunningTest/RunningTest.vcxproj" Id="8e74a4ce-f1ad-4baf-b8c9-24d6793e43a3">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+</Solution>
